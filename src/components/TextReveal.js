@@ -24,7 +24,7 @@ function TextReveal() {
         start: "top center",
         end: "bottom 85%",
       },
-      color: "#ffffff",
+      color: "#2A2A2A",
       duration: 7,
       stagger: 1,
     });
