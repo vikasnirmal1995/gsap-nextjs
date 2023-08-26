@@ -7,7 +7,7 @@ export default function IndexPage() {
   const boxRef = useRef();
 
   useEffect(() => {
-    gsap.to(boxRef.current, { rotation: "+=360" });
+    gsap.to(boxRef.current, { rotation: "+=360", scale: 1.3 });
   }, []);
 
   return (
