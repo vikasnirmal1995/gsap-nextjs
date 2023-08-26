@@ -34,8 +34,8 @@ body {
   font-weight: 800;
   font-size: var(--headlineBig);
   line-height: var(--headlineBig);
-  color: rgba(255, 255, 255, 0.7);
-  filter: drop-shadow(0 0 0.06rem rgb(2, 2, 2));
+  color: rgba(255, 255, 255, 0.6);
+  filter: drop-shadow(0 0 0.03rem rgb(2, 2, 2));
 }
 
 .spacing-small {
@@ -46,8 +46,9 @@ body {
   height: 100vh;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
   .reveal {
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
