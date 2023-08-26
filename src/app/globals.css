@@ -13,7 +13,7 @@ body {
 :root {
   --backgroundColor: #fef852;
   --backgroundColorSecondary: #fffc94;
-  --textPrimaryColor: #2a2a2a;
+  /* --textPrimaryColor: #2a2a2a; */
 
   --headlineBig: clamp(3rem, 10vw, 15rem);
   --headlineSmall: clamp(1rem, 1.2vw, 6rem);
@@ -21,11 +21,11 @@ body {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: var(--backgroundColor);
+  /* background-color: var(--backgroundColor); */
 }
 
 .reveal {
-  background: var(--backgroundColor);
+  /* background: var(--backgroundColor); */
   padding-left: 20%;
   padding-right: 10%;
 }
@@ -34,7 +34,7 @@ body {
   font-weight: 800;
   font-size: var(--headlineBig);
   line-height: var(--headlineBig);
-  color: var(--backgroundColor);
+  color: rgba(255, 255, 255, 0.7);
   filter: drop-shadow(0 0 0.06rem rgb(2, 2, 2));
 }
 
